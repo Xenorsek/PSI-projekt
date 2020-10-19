@@ -1,0 +1,1 @@
+print("Legia to najlepszy klub (L)");
