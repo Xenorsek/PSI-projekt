@@ -1,0 +1,1 @@
+print("Tak naprawdę to tylko Górnik Zabrze");
