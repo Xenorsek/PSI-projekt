@@ -85,7 +85,7 @@ class SpecjalneAtaki(models.Model):
 
 class Typ(models.Model):
     idTyp = models.IntegerField()
-    Nazwa = models.CharField(max_length=45)
+    Nazwa = models.CharField(max_length=300)
     OTRUCIE = 'OT'
     PODPALENIE = 'PO'
     OSLEPIENIE = 'OS'
@@ -106,7 +106,7 @@ class Typ(models.Model):
         choices=Odpornosc_wybor,
         default='brak',
     )
-    OpisTypu = models.CharField(max_length=45)
+    OpisTypu = models.CharField(max_length=300)
 
 
 
